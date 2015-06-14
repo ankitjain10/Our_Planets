@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.ourplanets" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mercury"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+        <activity
+            android:name=".Venus"
+            android:label="@string/title_activity_venus" >
+        </activity>
+        <activity
+            android:name=".Earth"
+            android:label="@string/title_activity_earth" >
+        </activity>
+        <activity
+            android:name=".Jupiter"
+            android:label="@string/title_activity_jupiter" >
+        </activity>
+        <activity
+            android:name=".Saturn"
+            android:label="@string/title_activity_saturn" >
+        </activity>
+        <activity
+            android:name=".Uranus"
+            android:label="@string/title_activity_uranus" >
+        </activity>
+        <activity
+            android:name=".Neptune"
+            android:label="@string/title_activity_neptune" >
+        </activity>
+        <activity
+            android:name=".Mars"
+            android:label="@string/title_activity_mars" >
+        </activity>
+
+        <activity
+            android:name=".EarthFullSize"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+
+    </application>
+
+</manifest>
