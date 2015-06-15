@@ -54,6 +54,42 @@
             android:label="@string/title_activity_mercury" >
         </activity>
 
+        <activity
+            android:name=".MercuryFullSize"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+
+        <activity
+            android:name=".VenusFullSize"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+
+        <activity
+            android:name=".MarsFullSize"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+
+        <activity
+            android:name=".JupiterFullSize"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+
+        <activity
+            android:name=".SaturnFullSize"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+
+        <activity
+            android:name=".UranusFullSize"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+
+        <activity
+            android:name=".NeptuneFullSize"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+
+
     </application>
 
 </manifest>

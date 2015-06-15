@@ -11,14 +11,14 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.ViewSwitcher.ViewFactory;
 
-public class EarthFullSize extends Activity {
+public class MarsFullSize extends Activity {
     private ImageSwitcher sw;
     private Button b1,b2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.earthfullsize);
+        setContentView(R.layout.marsfullsize);
 
         b1 = (Button) findViewById(R.id.button);
         b2 = (Button) findViewById(R.id.button2);
@@ -38,7 +38,7 @@ public class EarthFullSize extends Activity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "previous Image",Toast.LENGTH_LONG).show();
-                sw.setImageResource(R.drawable.earthone);
+                sw.setImageResource(R.drawable.marsone);
             }
         });
 
@@ -46,7 +46,7 @@ public class EarthFullSize extends Activity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "Next Image",Toast.LENGTH_LONG).show();
-                sw.setImageResource(R.drawable.earthtwo);
+                sw.setImageResource(R.drawable.marstwo);
             }
         });
     }
