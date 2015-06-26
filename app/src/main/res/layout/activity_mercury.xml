@@ -29,11 +29,25 @@
         android:layout_gravity="center"
         android:src="@drawable/mercury" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Sample Text"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/btnImage"
-        android:layout_alignEnd="@+id/textView" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Named by early Romans after the messenger of their gods.Rotation: 59days
+Revolution: 88days
+Atmosphere: Helium, oxygen, hydrogen
+Temperature: -193C to 342C
+Diameter: 4,878 KM
+Distance from the Sun (avg): 57.9 mil km
+Number of Moons: 0"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnImage"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_gravity="bottom" />
+    </ScrollView>
+
 </LinearLayout>

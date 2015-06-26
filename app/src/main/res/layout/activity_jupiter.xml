@@ -28,11 +28,27 @@
         android:layout_gravity="center"
          />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Sample Text"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/btnImage"
-        android:layout_alignEnd="@+id/textView" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The romans named this planet after the king of their gods.
+Rotation: 9hr, 55min
+Revolution: 11.86yrs
+Atmosphere: 90% Hydrogen, 10% helium, trace amounts of methane, ammonia, water.
+Temperature: -149?C
+Diameter: 147,700 km
+Distance from the Sun (avg): 778.3 mil km
+Number of Moons: 16 and 23 smaller satellites
+"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnImage"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_gravity="bottom" />
+    </ScrollView>
 </LinearLayout>

@@ -28,11 +28,24 @@
         android:layout_alignParentStart="true"
         android:layout_gravity="center" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Sample Text"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/btnImage"
-        android:layout_alignEnd="@+id/textView" />
-</LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The romans named this planet after their god of agriculture.
+Rotation: 10hr, 39min
+Atmosphere: 91% hydrogen, 6% helium, methane, ammonia, hydrogen sulfide, water and more.
+Temperature: -176?C
+Diameter: 120,563 km
+Distance from the Sun (avg): 1,429 mil km
+Number of Moons: 20"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnImage"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_gravity="bottom" />
+    </ScrollView></LinearLayout>

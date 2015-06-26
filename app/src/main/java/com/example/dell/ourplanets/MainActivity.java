@@ -8,17 +8,22 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 
 public class MainActivity extends ListActivity {
 
 
     String[] planets={"Mercury",
-    "Venus","Earth","Mars","Jupiter","Saturn","Neptune","Uranus"};
+    "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        TextView tv=new TextView(this);
+        tv.setText("Planets Name");
+        //tv.setGravity(View.TEXT_ALIGNMENT_CENTER);
+        tv.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         setListAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,planets));
     }
 

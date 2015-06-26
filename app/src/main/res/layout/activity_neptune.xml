@@ -28,11 +28,24 @@
         android:layout_gravity="center"
         android:src="@drawable/neptune" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Sample Text"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/btnImage"
-        android:layout_alignEnd="@+id/textView" />
-</LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The romans named this planet after their god of the sea.
+Rotation: 17hr, 50min
+Revolution: 165yrs
+Atmosphere: Hydrogen, Helium, Methane, Ethane.
+Temperature: -230?C
+Diameter: 48,591.8 km
+Distance from the Sun (avg): 4,504 mil km
+Number of Moons: 8"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnImage"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_gravity="bottom" />
+    </ScrollView></LinearLayout>

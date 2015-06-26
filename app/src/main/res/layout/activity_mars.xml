@@ -28,11 +28,26 @@
         android:layout_gravity="center"
         />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Sample Text"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/btnImage"
-        android:layout_alignEnd="@+id/textView" />
-</LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The name derives from the Roman god of war.
+Rotation: 24.66hr
+Revolution: 687yrs
+Atmosphere: Predominantly carbon dioxide, nitrogen, water vapor, some oxygen, traces of carbon monoxide, neon, and others.
+Temperature: -124?C to -31?C
+Diameter: 6,790 km
+Distance from the Sun (avg): 227.9 mil km
+Number of Moons: 2
+"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnImage"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_gravity="bottom" />
+    </ScrollView></LinearLayout>

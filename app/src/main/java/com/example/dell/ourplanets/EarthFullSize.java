@@ -37,7 +37,7 @@ public class EarthFullSize extends Activity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "previous Image",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "previous Image",Toast.LENGTH_SHORT).show();
                 sw.setImageResource(R.drawable.earthone);
             }
         });
@@ -45,7 +45,7 @@ public class EarthFullSize extends Activity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Next Image",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Next Image",Toast.LENGTH_SHORT).show();
                 sw.setImageResource(R.drawable.earthtwo);
             }
         });
